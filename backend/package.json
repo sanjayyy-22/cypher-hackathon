@@ -23,6 +23,7 @@
   "devDependencies": {
     "@types/nodemailer": "^7.0.2",
     "prisma": "^6.16.3",
+    "sib-api-v3-sdk": "^8.5.0",
     "ts-node": "^10.9.2",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.9.3"
