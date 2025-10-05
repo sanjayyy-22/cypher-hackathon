@@ -1,0 +1,111 @@
+.app-container {
+  max-width: 800px;
+  margin: 32px auto;
+  padding: 24px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f7f9fc;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.app-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 32px;
+  color: #4b00ff;
+}
+
+.error {
+  color: #ff4d4f;
+  margin-bottom: 16px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.wallet-actions,
+.send-section,
+.approval-section,
+.transactions-section {
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.input {
+  padding: 10px 12px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-primary {
+  background-color: #4b00ff;
+  color: #fff;
+}
+.btn-primary:hover {
+  background-color: #3500b3;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: #fff;
+}
+.btn-secondary:hover {
+  background-color: #565e64;
+}
+
+.btn-success {
+  background-color: #28a745;
+  color: #fff;
+}
+.btn-success:hover {
+  background-color: #1e7e34;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: #fff;
+}
+.btn-danger:hover {
+  background-color: #a71d2a;
+}
+
+.wallet-info p {
+  font-size: 1rem;
+  margin: 4px 0;
+}
+.balance {
+  color: #4b00ff;
+  font-weight: 600;
+}
+
+.transactions-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.transaction-item {
+  background: #fff;
+  padding: 8px 12px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.tx-amount {
+  color: #28a745;
+  font-weight: 600;
+}
